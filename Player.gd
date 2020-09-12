@@ -21,6 +21,7 @@ func _physics_process(delta):
 	position.x = clamp(position.x,min_range.x,max_range.x)
 	position.y = clamp(position.y,min_range.y,max_range.y)
 
+//add to gists
 func get_input():
 	var input_dir = Vector2(0,0)
 	if Input.is_action_pressed("up"):
